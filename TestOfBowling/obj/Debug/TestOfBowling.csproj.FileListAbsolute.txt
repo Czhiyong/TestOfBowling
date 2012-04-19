@@ -1,0 +1,5 @@
+c:\users\myfamily\documents\visual studio 2010\Projects\TestOfBowling\TestOfBowling\obj\Debug\ResolveAssemblyReference.cache
+c:\users\myfamily\documents\visual studio 2010\Projects\TestOfBowling\TestOfBowling\bin\Debug\TestOfBowling.dll
+c:\users\myfamily\documents\visual studio 2010\Projects\TestOfBowling\TestOfBowling\bin\Debug\TestOfBowling.pdb
+c:\users\myfamily\documents\visual studio 2010\Projects\TestOfBowling\TestOfBowling\obj\Debug\TestOfBowling.dll
+c:\users\myfamily\documents\visual studio 2010\Projects\TestOfBowling\TestOfBowling\obj\Debug\TestOfBowling.pdb
