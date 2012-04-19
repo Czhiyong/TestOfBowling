@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="4aa06299-177b-4b75-bc1d-43375374848c" name="myfamily@MYFAMILY-PC 2012-04-19 17:16:23" runUser="myfamily-PC\myfamily" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="本地" id="30fa130a-0b35-4b6d-ba3b-5fa4a98ad95c">
+    <Description>这些设置为本地测试运行的默认测试设置。</Description>
+    <Deployment enabled="false" runDeploymentRoot="myfamily_MYFAMILY-PC 2012-04-19 17_16_23" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-04-19T17:16:23.9316406+08:00" queuing="2012-04-19T17:16:24.0000000+08:00" start="2012-04-19T17:16:24.0224609+08:00" finish="2012-04-19T17:16:25.1337890+08:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestMethod1" storage="c:\users\myfamily\documents\visual studio 2010\projects\testofbowling\testofbowling\bin\debug\testofbowling.dll" id="23ff73ad-8bfd-9b1b-7bf6-04c036dc6b29">
+      <Execution id="f497f6af-81a9-4fbd-9048-ad422ab32a9e" />
+      <TestMethod codeBase="c:/users/myfamily/documents/visual studio 2010/Projects/TestOfBowling/TestOfBowling/bin/Debug/TestOfBowling.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestOfBowling.GameTest, TestOfBowling, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod1" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="列表中未列出的结果" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="所有已加载的结果" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="23ff73ad-8bfd-9b1b-7bf6-04c036dc6b29" executionId="f497f6af-81a9-4fbd-9048-ad422ab32a9e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="f497f6af-81a9-4fbd-9048-ad422ab32a9e" testId="23ff73ad-8bfd-9b1b-7bf6-04c036dc6b29" testName="TestMethod1" computerName="MYFAMILY-PC" duration="00:00:00.5821695" startTime="2012-04-19T17:16:24.0498046+08:00" endTime="2012-04-19T17:16:25.0302734+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f497f6af-81a9-4fbd-9048-ad422ab32a9e">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual 失败。应为: &lt;6&gt;，实际为: &lt;5&gt;。</Message>
+          <StackTrace>   在 TestOfBowling.GameTest.TestMethod1() 位置 c:\users\myfamily\documents\visual studio 2010\Projects\TestOfBowling\TestOfBowling\GameTest.cs:行号 66
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

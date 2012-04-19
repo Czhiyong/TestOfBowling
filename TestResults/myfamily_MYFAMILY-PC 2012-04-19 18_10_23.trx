@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="0f56cbee-fe35-4e4d-9f3d-07eb7b12ef36" name="myfamily@MYFAMILY-PC 2012-04-19 18:10:23" runUser="myfamily-PC\myfamily" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="本地" id="30fa130a-0b35-4b6d-ba3b-5fa4a98ad95c">
+    <Description>这些设置为本地测试运行的默认测试设置。</Description>
+    <Deployment enabled="false" runDeploymentRoot="myfamily_MYFAMILY-PC 2012-04-19 18_10_23" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-04-19T18:10:23.8388671+08:00" queuing="2012-04-19T18:10:23.8730468+08:00" start="2012-04-19T18:10:23.9101562+08:00" finish="2012-04-19T18:10:24.4443359+08:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="4" executed="4" passed="3" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestTwoThrowNoMark" storage="c:\users\myfamily\documents\visual studio 2010\projects\testofbowling\testofbowling\bin\debug\testofbowling.dll" id="8ca4f23a-d98e-32ac-1905-d5e658b05f5f">
+      <Execution id="caa608c4-15bc-4ab0-a158-8efa78cc3a66" />
+      <TestMethod codeBase="C:/Users/myfamily/documents/visual studio 2010/Projects/TestOfBowling/TestOfBowling/bin/Debug/TestOfBowling.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestOfBowling.GameTest, TestOfBowling, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestTwoThrowNoMark" />
+    </UnitTest>
+    <UnitTest name="TestFourThrowsNoMark" storage="c:\users\myfamily\documents\visual studio 2010\projects\testofbowling\testofbowling\bin\debug\testofbowling.dll" id="8e6f7331-ea5b-42f6-88f6-93e9dc8f019e">
+      <Execution id="6b51e7a2-5aeb-439f-a29c-a39963d4abe0" />
+      <TestMethod codeBase="C:/Users/myfamily/documents/visual studio 2010/Projects/TestOfBowling/TestOfBowling/bin/Debug/TestOfBowling.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestOfBowling.GameTest, TestOfBowling, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestFourThrowsNoMark" />
+    </UnitTest>
+    <UnitTest name="TestOneThrow" storage="c:\users\myfamily\documents\visual studio 2010\projects\testofbowling\testofbowling\bin\debug\testofbowling.dll" id="8a9b7288-67f7-6453-ec71-e8a325e7b2d2">
+      <Execution id="62edc792-3ae5-4ffe-911d-a68c667e715c" />
+      <TestMethod codeBase="C:/Users/myfamily/documents/visual studio 2010/Projects/TestOfBowling/TestOfBowling/bin/Debug/TestOfBowling.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestOfBowling.GameTest, TestOfBowling, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestOneThrow" />
+    </UnitTest>
+    <UnitTest name="TestSimpleSpare" storage="c:\users\myfamily\documents\visual studio 2010\projects\testofbowling\testofbowling\bin\debug\testofbowling.dll" id="ae1b6d7a-8fda-e440-28e1-73f5e0636850">
+      <Execution id="a7ed0108-b30a-4365-8763-b380667e6569" />
+      <TestMethod codeBase="C:/Users/myfamily/documents/visual studio 2010/Projects/TestOfBowling/TestOfBowling/bin/Debug/TestOfBowling.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestOfBowling.GameTest, TestOfBowling, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestSimpleSpare" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="列表中未列出的结果" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="所有已加载的结果" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="8a9b7288-67f7-6453-ec71-e8a325e7b2d2" executionId="62edc792-3ae5-4ffe-911d-a68c667e715c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8ca4f23a-d98e-32ac-1905-d5e658b05f5f" executionId="caa608c4-15bc-4ab0-a158-8efa78cc3a66" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8e6f7331-ea5b-42f6-88f6-93e9dc8f019e" executionId="6b51e7a2-5aeb-439f-a29c-a39963d4abe0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ae1b6d7a-8fda-e440-28e1-73f5e0636850" executionId="a7ed0108-b30a-4365-8763-b380667e6569" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="62edc792-3ae5-4ffe-911d-a68c667e715c" testId="8a9b7288-67f7-6453-ec71-e8a325e7b2d2" testName="TestOneThrow" computerName="MYFAMILY-PC" duration="00:00:00.0228109" startTime="2012-04-19T18:10:23.9296875+08:00" endTime="2012-04-19T18:10:24.3193359+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="62edc792-3ae5-4ffe-911d-a68c667e715c">
+    </UnitTestResult>
+    <UnitTestResult executionId="caa608c4-15bc-4ab0-a158-8efa78cc3a66" testId="8ca4f23a-d98e-32ac-1905-d5e658b05f5f" testName="TestTwoThrowNoMark" computerName="MYFAMILY-PC" duration="00:00:00.0003740" startTime="2012-04-19T18:10:24.3271484+08:00" endTime="2012-04-19T18:10:24.3359375+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="caa608c4-15bc-4ab0-a158-8efa78cc3a66">
+    </UnitTestResult>
+    <UnitTestResult executionId="6b51e7a2-5aeb-439f-a29c-a39963d4abe0" testId="8e6f7331-ea5b-42f6-88f6-93e9dc8f019e" testName="TestFourThrowsNoMark" computerName="MYFAMILY-PC" duration="00:00:00.0007509" startTime="2012-04-19T18:10:24.3417968+08:00" endTime="2012-04-19T18:10:24.3515625+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6b51e7a2-5aeb-439f-a29c-a39963d4abe0">
+    </UnitTestResult>
+    <UnitTestResult executionId="a7ed0108-b30a-4365-8763-b380667e6569" testId="ae1b6d7a-8fda-e440-28e1-73f5e0636850" testName="TestSimpleSpare" computerName="MYFAMILY-PC" duration="00:00:00.0382327" startTime="2012-04-19T18:10:24.3574218+08:00" endTime="2012-04-19T18:10:24.4042968+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a7ed0108-b30a-4365-8763-b380667e6569">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual 失败。应为: &lt;13&gt;，实际为: &lt;10&gt;。</Message>
+          <StackTrace>   在 TestOfBowling.GameTest.TestSimpleSpare() 位置 C:\Users\myfamily\documents\visual studio 2010\Projects\TestOfBowling\TestOfBowling\GameTest.cs:行号 86
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

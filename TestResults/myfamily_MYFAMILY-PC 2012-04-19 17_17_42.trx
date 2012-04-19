@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="7ca17dec-1629-43e0-8b39-2e65d2348cb9" name="myfamily@MYFAMILY-PC 2012-04-19 17:17:42" runUser="myfamily-PC\myfamily" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="本地" id="30fa130a-0b35-4b6d-ba3b-5fa4a98ad95c">
+    <Description>这些设置为本地测试运行的默认测试设置。</Description>
+    <Deployment enabled="false" runDeploymentRoot="myfamily_MYFAMILY-PC 2012-04-19 17_17_42" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-04-19T17:17:42.8671875+08:00" queuing="2012-04-19T17:17:42.9550781+08:00" start="2012-04-19T17:17:42.9814453+08:00" finish="2012-04-19T17:17:43.6464843+08:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="5" executed="5" passed="2" error="0" failed="3" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestTwoThrowNoMark" storage="c:\users\myfamily\documents\visual studio 2010\projects\testofbowling\testofbowling\bin\debug\testofbowling.dll" id="8ca4f23a-d98e-32ac-1905-d5e658b05f5f">
+      <Execution id="707dcd98-feb0-46b8-aae5-be395ef8f8cb" />
+      <TestMethod codeBase="c:/users/myfamily/documents/visual studio 2010/Projects/TestOfBowling/TestOfBowling/bin/Debug/TestOfBowling.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestOfBowling.GameTest, TestOfBowling, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestTwoThrowNoMark" />
+    </UnitTest>
+    <UnitTest name="TestFourThrowsNoMark" storage="c:\users\myfamily\documents\visual studio 2010\projects\testofbowling\testofbowling\bin\debug\testofbowling.dll" id="8e6f7331-ea5b-42f6-88f6-93e9dc8f019e">
+      <Execution id="a60c8575-b7f4-4d9c-ae32-5c2d8e1048c0" />
+      <TestMethod codeBase="c:/users/myfamily/documents/visual studio 2010/Projects/TestOfBowling/TestOfBowling/bin/Debug/TestOfBowling.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestOfBowling.GameTest, TestOfBowling, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestFourThrowsNoMark" />
+    </UnitTest>
+    <UnitTest name="TestOneThrow" storage="c:\users\myfamily\documents\visual studio 2010\projects\testofbowling\testofbowling\bin\debug\testofbowling.dll" id="8a9b7288-67f7-6453-ec71-e8a325e7b2d2">
+      <Execution id="1acee42c-7038-437d-9f27-075fc190ef4b" />
+      <TestMethod codeBase="c:/users/myfamily/documents/visual studio 2010/Projects/TestOfBowling/TestOfBowling/bin/Debug/TestOfBowling.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestOfBowling.GameTest, TestOfBowling, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestOneThrow" />
+    </UnitTest>
+    <UnitTest name="TestSimpleSpare" storage="c:\users\myfamily\documents\visual studio 2010\projects\testofbowling\testofbowling\bin\debug\testofbowling.dll" id="ae1b6d7a-8fda-e440-28e1-73f5e0636850">
+      <Execution id="8043e511-ac20-47ed-9761-3a380a1874cd" />
+      <TestMethod codeBase="c:/users/myfamily/documents/visual studio 2010/Projects/TestOfBowling/TestOfBowling/bin/Debug/TestOfBowling.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestOfBowling.GameTest, TestOfBowling, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestSimpleSpare" />
+    </UnitTest>
+    <UnitTest name="TestMethod1" storage="c:\users\myfamily\documents\visual studio 2010\projects\testofbowling\testofbowling\bin\debug\testofbowling.dll" id="23ff73ad-8bfd-9b1b-7bf6-04c036dc6b29">
+      <Execution id="a070cf7e-e0c8-4329-9dc8-0f4d3e922ed6" />
+      <TestMethod codeBase="c:/users/myfamily/documents/visual studio 2010/Projects/TestOfBowling/TestOfBowling/bin/Debug/TestOfBowling.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestOfBowling.GameTest, TestOfBowling, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod1" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="列表中未列出的结果" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="所有已加载的结果" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="23ff73ad-8bfd-9b1b-7bf6-04c036dc6b29" executionId="a070cf7e-e0c8-4329-9dc8-0f4d3e922ed6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8a9b7288-67f7-6453-ec71-e8a325e7b2d2" executionId="1acee42c-7038-437d-9f27-075fc190ef4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8ca4f23a-d98e-32ac-1905-d5e658b05f5f" executionId="707dcd98-feb0-46b8-aae5-be395ef8f8cb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8e6f7331-ea5b-42f6-88f6-93e9dc8f019e" executionId="a60c8575-b7f4-4d9c-ae32-5c2d8e1048c0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ae1b6d7a-8fda-e440-28e1-73f5e0636850" executionId="8043e511-ac20-47ed-9761-3a380a1874cd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="a070cf7e-e0c8-4329-9dc8-0f4d3e922ed6" testId="23ff73ad-8bfd-9b1b-7bf6-04c036dc6b29" testName="TestMethod1" computerName="MYFAMILY-PC" duration="00:00:00.0218485" startTime="2012-04-19T17:17:43.0029296+08:00" endTime="2012-04-19T17:17:43.3964843+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a070cf7e-e0c8-4329-9dc8-0f4d3e922ed6">
+    </UnitTestResult>
+    <UnitTestResult executionId="1acee42c-7038-437d-9f27-075fc190ef4b" testId="8a9b7288-67f7-6453-ec71-e8a325e7b2d2" testName="TestOneThrow" computerName="MYFAMILY-PC" duration="00:00:00.0006986" startTime="2012-04-19T17:17:43.4296875+08:00" endTime="2012-04-19T17:17:43.4677734+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1acee42c-7038-437d-9f27-075fc190ef4b">
+    </UnitTestResult>
+    <UnitTestResult executionId="707dcd98-feb0-46b8-aae5-be395ef8f8cb" testId="8ca4f23a-d98e-32ac-1905-d5e658b05f5f" testName="TestTwoThrowNoMark" computerName="MYFAMILY-PC" duration="00:00:00.0573776" startTime="2012-04-19T17:17:43.4853515+08:00" endTime="2012-04-19T17:17:43.5605468+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="707dcd98-feb0-46b8-aae5-be395ef8f8cb">
+      <Output>
+        <ErrorInfo>
+          <Message>测试方法 TestOfBowling.GameTest.TestTwoThrowNoMark 引发了异常: 
+System.NullReferenceException: 未将对象引用设置到对象的实例。</Message>
+          <StackTrace>    在 TestOfBowling.GameTest.TestTwoThrowNoMark() 位置 c:\users\myfamily\documents\visual studio 2010\Projects\TestOfBowling\TestOfBowling\GameTest.cs:行号 88
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a60c8575-b7f4-4d9c-ae32-5c2d8e1048c0" testId="8e6f7331-ea5b-42f6-88f6-93e9dc8f019e" testName="TestFourThrowsNoMark" computerName="MYFAMILY-PC" duration="00:00:00.0048101" startTime="2012-04-19T17:17:43.5664062+08:00" endTime="2012-04-19T17:17:43.5888671+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a60c8575-b7f4-4d9c-ae32-5c2d8e1048c0">
+      <Output>
+        <ErrorInfo>
+          <Message>测试方法 TestOfBowling.GameTest.TestFourThrowsNoMark 引发了异常: 
+System.NullReferenceException: 未将对象引用设置到对象的实例。</Message>
+          <StackTrace>    在 TestOfBowling.GameTest.TestFourThrowsNoMark() 位置 c:\users\myfamily\documents\visual studio 2010\Projects\TestOfBowling\TestOfBowling\GameTest.cs:行号 96
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="8043e511-ac20-47ed-9761-3a380a1874cd" testId="ae1b6d7a-8fda-e440-28e1-73f5e0636850" testName="TestSimpleSpare" computerName="MYFAMILY-PC" duration="00:00:00.0033917" startTime="2012-04-19T17:17:43.5947265+08:00" endTime="2012-04-19T17:17:43.6181640+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8043e511-ac20-47ed-9761-3a380a1874cd">
+      <Output>
+        <ErrorInfo>
+          <Message>测试方法 TestOfBowling.GameTest.TestSimpleSpare 引发了异常: 
+System.NullReferenceException: 未将对象引用设置到对象的实例。</Message>
+          <StackTrace>    在 TestOfBowling.GameTest.TestSimpleSpare() 位置 c:\users\myfamily\documents\visual studio 2010\Projects\TestOfBowling\TestOfBowling\GameTest.cs:行号 108
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
